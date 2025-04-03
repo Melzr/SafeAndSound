@@ -1,0 +1,20 @@
+﻿{
+  "Name": "SafeAndSound",
+  "Author": "Melzr",
+  "Version": "1.0.0",
+  "Description": "I could lift you up...",
+  "UniqueID": "Melzr.SafeAndSound",
+  "EntryDll": "SafeAndSound.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Melzr.SafeAndSoundAssets",
+      "IsRequired": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿{
+  "Format": "2.5.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Melzr.SafeAndSound_Music": {
+          "ID": "Melzr.SafeAndSound_Music",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/SafeAndSound.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+_releases/
+
+# Visual Studio cache/options
+.vs/
+
+# Visual Studio Code options
+/.vscode
+
+# JetBrains options
+.idea/
