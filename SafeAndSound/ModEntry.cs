@@ -17,24 +17,47 @@ namespace SafeAndSound
         /// <param name="helper">Provides simplified APIs for writing mods.</param>
         public override void Entry(IModHelper helper)
         {
-            helper.Events.Input.ButtonPressed += this.OnButtonPressed;
+            helper.Events.GameLoop.TimeChanged += OnTimeChanged;
         }
 
 
         /*********
          ** Private methods
          *********/
-        /// <summary>Raised after the player presses a button on the keyboard, controller, or mouse.</summary>
         /// <param name="sender">The event sender.</param>
         /// <param name="e">The event data.</param>
-        private void OnButtonPressed(object? sender, ButtonPressedEventArgs e)
+        private void OnTimeChanged(object? sender, TimeChangedEventArgs e)
         {
-            // ignore if player hasn't loaded a save yet
-            if (!Context.IsWorldReady)
-                return;
+            if (e.NewTime == 2300 && Context.IsWorldReady)
+            {
+                // Stop any playing music
+                Game1.changeMusicTrack("");
 
-            // print button presses to the console window
-            this.Monitor.Log($"{Game1.player.Name} pressed {e.Button}.", LogLevel.Debug);
+                // Play Safe and Sound
+                Game1.soundBank?.GetCue("Melzr.SafeAndSound_Music")?.Play();
+                
+                AddFireworksToInventory();
+            }
+        }
+        
+        private void AddFireworksToInventory()
+        {
+            string redFireworkId = "893";
+            string purpleFireworkId = "894";
+            string greenFireworkId = "895";
+            
+            AddItemToInventory(redFireworkId, 5);
+            AddItemToInventory(purpleFireworkId, 5);
+            AddItemToInventory(greenFireworkId, 5);
+        }
+        
+        private void AddItemToInventory(string itemId, int amount = 1)
+        {
+            for (int i = 0; i < amount; i++)
+            {
+                Item item = new StardewValley.Object(itemId, 1);
+                Game1.player.addItemToInventory(item);
+            }
         }
     }
 }
