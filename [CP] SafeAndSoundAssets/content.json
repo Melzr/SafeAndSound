@@ -5,10 +5,88 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
-        "Melzr.SafeAndSound_Music": {
-          "ID": "Melzr.SafeAndSound_Music",
+        "CountingStars": {
+          "ID": "CountingStars",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/CountingStars.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Firework": {
+          "ID": "Firework",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Firework.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "IGottaFeeling": {
+          "ID": "IGottaFeeling",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/IGottaFeeling.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "ILoveIt": {
+          "ID": "ILoveIt",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/ILoveIt.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "SafeAndSound": {
+          "ID": "SafeAndSound",
           "Category": "Music",
           "FilePaths": [ "{{AbsoluteFilePath: assets/SafeAndSound.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Summer": {
+          "ID": "Summer",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Summer.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Umbrella": {
+          "ID": "Umbrella",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Umbrella.wav}}" ],
           "StreamedVorbis": true,
           "Looped": false
         }

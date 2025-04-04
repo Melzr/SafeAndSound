@@ -10,6 +10,18 @@ namespace SafeAndSound
     /// <summary>The mod entry point.</summary>
     internal sealed class ModEntry : Mod
     {
+        private const int FireworkAmount = 10;
+        private static readonly string[] FireworkIds = {"893", "894", "895"}; // Red, Purple, Green
+        private static readonly string[] SongNames = {
+            "CountingStars",
+            "Firework",
+            "IGottaFeeling",
+            "ILoveIt",
+            "SafeAndSound",
+            "Summer",
+            "Umbrella"
+        };
+        
         /*********
          ** Public methods
          *********/
@@ -28,13 +40,14 @@ namespace SafeAndSound
         /// <param name="e">The event data.</param>
         private void OnTimeChanged(object? sender, TimeChangedEventArgs e)
         {
+            // 2300 is 11PM
             if (e.NewTime == 2300 && Context.IsWorldReady)
             {
                 // Stop any playing music
                 Game1.changeMusicTrack("");
 
-                // Play Safe and Sound
-                Game1.soundBank?.GetCue("Melzr.SafeAndSound_Music")?.Play();
+                // Play custom song
+                Game1.soundBank?.GetCue(GetRandomSongName())?.Play();
                 
                 AddFireworksToInventory();
             }
@@ -42,13 +55,10 @@ namespace SafeAndSound
         
         private void AddFireworksToInventory()
         {
-            string redFireworkId = "893";
-            string purpleFireworkId = "894";
-            string greenFireworkId = "895";
-            
-            AddItemToInventory(redFireworkId, 5);
-            AddItemToInventory(purpleFireworkId, 5);
-            AddItemToInventory(greenFireworkId, 5);
+            foreach (string fireworkId in FireworkIds)
+            {
+                AddItemToInventory(fireworkId, FireworkAmount);
+            }
         }
         
         private void AddItemToInventory(string itemId, int amount = 1)
@@ -58,6 +68,13 @@ namespace SafeAndSound
                 Item item = new StardewValley.Object(itemId, 1);
                 Game1.player.addItemToInventory(item);
             }
+        }
+
+        private string GetRandomSongName()
+        {
+            Random random = new();
+            int index = random.Next(SongNames.Length);
+            return SongNames[index];
         }
     }
 }
