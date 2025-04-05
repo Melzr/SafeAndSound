@@ -13,12 +13,18 @@ namespace SafeAndSound
         private const int FireworkAmount = 10;
         private static readonly string[] FireworkIds = {"893", "894", "895"}; // Red, Purple, Green
         private static readonly string[] SongNames = {
+            "BadRomance",
+            "CallMeMaybe",
             "CountingStars",
+            "FeelThisMoment",
             "Firework",
+            "HotNCold",
             "IGottaFeeling",
             "ILoveIt",
+            "JustDance",
             "SafeAndSound",
             "Summer",
+            "TeenageDream",
             "Umbrella"
         };
         

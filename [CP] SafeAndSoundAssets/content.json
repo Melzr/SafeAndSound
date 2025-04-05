@@ -5,6 +5,32 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
+        "BadRomance": {
+          "ID": "BadRomance",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/BadRomance.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "CallMeMaybe": {
+          "ID": "CallMeMaybe",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/CallMeMaybe.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
         "CountingStars": {
           "ID": "CountingStars",
           "Category": "Music",
@@ -18,10 +44,36 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
+        "FeelThisMoment": {
+          "ID": "FeelThisMoment",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/FeelThisMoment.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
         "Firework": {
           "ID": "Firework",
           "Category": "Music",
           "FilePaths": [ "{{AbsoluteFilePath: assets/Firework.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "HotNCold": {
+          "ID": "HotNCold",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/HotNCold.wav}}" ],
           "StreamedVorbis": true,
           "Looped": false
         }
@@ -57,6 +109,19 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
+        "JustDance": {
+          "ID": "JustDance",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/JustDance.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
         "SafeAndSound": {
           "ID": "SafeAndSound",
           "Category": "Music",
@@ -74,6 +139,19 @@
           "ID": "Summer",
           "Category": "Music",
           "FilePaths": [ "{{AbsoluteFilePath: assets/Summer.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "TeenageDream": {
+          "ID": "TeenageDream",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/TeenageDream.wav}}" ],
           "StreamedVorbis": true,
           "Looped": false
         }
