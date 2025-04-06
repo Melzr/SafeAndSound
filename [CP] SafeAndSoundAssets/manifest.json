@@ -2,6 +2,7 @@
   "Name": "SafeAndSoundAssets",
   "Author": "Melzr",
   "Version": "1.0.0",
+  "MinimumApiVersion": "3.0.0",
   "Description": "Assets required for SafeAndSound",
   "UniqueID": "Melzr.SafeAndSoundAssets",
   "UpdateKeys": [],
