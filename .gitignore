@@ -13,3 +13,5 @@ _releases/
 
 # JetBrains options
 .idea/
+
+*.DotSettings.user
