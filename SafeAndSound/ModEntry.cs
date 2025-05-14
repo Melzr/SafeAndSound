@@ -22,6 +22,7 @@ namespace SafeAndSound
             "IGottaFeeling",
             "ILoveIt",
             "JustDance",
+            "LastFridayNight",
             "SafeAndSound",
             "Summer",
             "TeenageDream",
