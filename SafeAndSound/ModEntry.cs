@@ -25,7 +25,8 @@ namespace SafeAndSound
             "SafeAndSound",
             "Summer",
             "TeenageDream",
-            "Umbrella"
+            "Umbrella",
+            "LastFridayNight"
         };
         
         private readonly PerScreen<string> _currentSongId = new PerScreen<string>();

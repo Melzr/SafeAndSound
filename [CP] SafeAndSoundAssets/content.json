@@ -169,6 +169,19 @@
           "Looped": false
         }
       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Umbrella": {
+          "ID": "LastFridayNight",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/LastFridayNight.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
     }
   ]
 }
