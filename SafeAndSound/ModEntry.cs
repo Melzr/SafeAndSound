@@ -22,11 +22,11 @@ namespace SafeAndSound
             "IGottaFeeling",
             "ILoveIt",
             "JustDance",
+            "LastFridayNight",
             "SafeAndSound",
             "Summer",
             "TeenageDream",
-            "Umbrella",
-            "LastFridayNight"
+            "Umbrella"
         };
         
         private readonly PerScreen<string> _currentSongId = new PerScreen<string>();

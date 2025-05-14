@@ -122,6 +122,19 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
+        "Umbrella": {
+          "ID": "LastFridayNight",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/LastFridayNight.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
         "SafeAndSound": {
           "ID": "SafeAndSound",
           "Category": "Music",
@@ -165,19 +178,6 @@
           "ID": "Umbrella",
           "Category": "Music",
           "FilePaths": [ "{{AbsoluteFilePath: assets/Umbrella.wav}}" ],
-          "StreamedVorbis": true,
-          "Looped": false
-        }
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/AudioChanges",
-      "Entries": {
-        "Umbrella": {
-          "ID": "LastFridayNight",
-          "Category": "Music",
-          "FilePaths": [ "{{AbsoluteFilePath: assets/LastFridayNight.wav}}" ],
           "StreamedVorbis": true,
           "Looped": false
         }
