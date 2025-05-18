@@ -122,7 +122,7 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
-        "Umbrella": {
+        "LastFridayNight": {
           "ID": "LastFridayNight",
           "Category": "Music",
           "FilePaths": [ "{{AbsoluteFilePath: assets/LastFridayNight.wav}}" ],
