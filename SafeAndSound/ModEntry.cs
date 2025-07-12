@@ -16,6 +16,7 @@ namespace SafeAndSound
             "BadRomance",
             "CallMeMaybe",
             "CountingStars",
+            "DieYoung",
             "FeelThisMoment",
             "Firework",
             "HotNCold",
@@ -26,6 +27,7 @@ namespace SafeAndSound
             "SafeAndSound",
             "Summer",
             "TeenageDream",
+            "TikTok",
             "Umbrella"
         };
         

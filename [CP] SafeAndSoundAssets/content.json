@@ -44,6 +44,19 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
+        "DieYoung": {
+          "ID": "DieYoung",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/DieYoung.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
         "FeelThisMoment": {
           "ID": "FeelThisMoment",
           "Category": "Music",
@@ -165,6 +178,19 @@
           "ID": "TeenageDream",
           "Category": "Music",
           "FilePaths": [ "{{AbsoluteFilePath: assets/TeenageDream.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "TikTok": {
+          "ID": "TikTok",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/TikTok.wav}}" ],
           "StreamedVorbis": true,
           "Looped": false
         }
