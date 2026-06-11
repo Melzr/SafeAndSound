@@ -14,6 +14,7 @@ namespace SafeAndSound
         private static readonly string[] FireworkIds = {"893", "894", "895"}; // Red, Purple, Green
         private static readonly string[] SongNames = {
             "BadRomance",
+            "BeautyAndABeat",
             "CallMeMaybe",
             "CountingStars",
             "DieYoung",
