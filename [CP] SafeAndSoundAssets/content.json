@@ -18,6 +18,19 @@
       "Action": "EditData",
       "Target": "Data/AudioChanges",
       "Entries": {
+        "BeautyAndABeat": {
+          "ID": "BeautyAndABeat",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/BeautyAndABeat.wav}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
         "CallMeMaybe": {
           "ID": "CallMeMaybe",
           "Category": "Music",
